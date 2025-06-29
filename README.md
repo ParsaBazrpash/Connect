@@ -52,4 +52,4 @@ We tackled these challenges by watching tutorials, reading documentation, and lo
 - 🗨️ Adding text-to-speech for full bidirectional communication
 - 🔐 Ensuring user privacy and adding authentication
 
-We hope to keep building Connect into a tool that empowers and unites people through the power of technology! 🌍
+We hope to keep building Connect into a tool that empowers and unites people through the power of technology!
