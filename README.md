@@ -1,6 +1,6 @@
 ## APP DEMO- https://www.youtube.com/watch?v=QEH0Zvk0bAg&t=1s
 
-Digital media has always been inaccessible by many people with disabilities like hearing-impairment and visual-impairment...
+Digital media has always been inaccessible to many people with disabilities like hearing-impairment and visual-impairment...
 CONNECT is a Video Chat App with live sign language translation and Speech to Text enabling seamless communication between hearing-impaired and hearing individuals.
 
 
