@@ -1,5 +1,13 @@
-## 💡 Inspiration
-One of our team members attended an American Sign Language (ASL) meeting on campus and realized how challenging it can be for the deaf and hard-of-hearing community to communicate in real-time. That experience sparked an idea:
+## APP DEMO- https://www.youtube.com/watch?v=QEH0Zvk0bAg&t=1s
+
+Digital media has always been inaccessible to many people with disabilities like hearing-impairment and visual-impairment...
+CONNECT is a Video Chat App with live sign language translation and Speech to Text enabling seamless communication between hearing-impaired and hearing individuals.
+
+
+
+
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 What if we could make communication more seamless and inclusive through technology?
 
