@@ -9,37 +9,55 @@ CONNECT is a Video Chat App with live sign language translation and Speech to Te
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+What if we could make communication more seamless and inclusive through technology?
 
-First, run the development server:
+So, a group of friends came together to build Connect — a real-time video calling app designed to bridge the gap between hearing and non-hearing individuals. We believe communication should be a right, not a privilege. 💙
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📱 What it does
+Connect is a web-based video chatting platform that enables deaf and hearing people to communicate more effectively. It features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 👋 **Sign Language to Text:** On one end, the app uses a machine learning model to recognize sign language gestures and convert them into text in real-time.
+- 🗣️ **Speech to Text:** On the other end, spoken words are transcribed into text instantly, ensuring the conversation flows both ways.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Our goal is to support inclusive communication and reduce barriers between people.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ How we built it
+We used a combination of tools and technologies:
 
-## Learn More
+- **Frontend:** Typescript (Next.js) for the user interface - TailwindCSS for Styling
+- **Video Communication:** WebRTC for real-time video calling
+- **Backend:** Flask API to serve our machine learning model
+- **ML Model:** A custom-built LSTM sign language recognition computer vision model trained using hand sign gestures.
+- **Database & Authentication:** Firestore and Firebase Authentication
+- **Firebase:** Used for signaling in WebRTC to establish peer-to-peer connections
 
-To learn more about Next.js, take a look at the following resources:
+## 🚧 Challenges we ran into
+We faced several technical challenges while building Connect:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔧 Setting up real-time video calls using WebRTC. We had to understand concepts like signaling servers, ICE candidates, and session description protocols (SDPs).
+- 🤖 Integrating the machine learning model into the backend and making real-time predictions available to the frontend.
+- 🔗 Ensuring smooth communication between frontend, backend, and ML components using Flask and .pkl model files.
+- 🔄 Syncing video streams with live transcriptions in both directions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We tackled these challenges by watching tutorials, reading documentation, and lots of trial and error!
 
-## Deploy on Vercel
+## 🏆 Accomplishments that we're proud of
+- 🔴 Successfully setting up live video chatting between users
+- ✋ Building and integrating our own sign-to-text ML model
+- 🔊 Combining speech-to-text and sign-to-text features in one app
+- 🤝 Creating a product that makes a real difference in communication accessibility
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 What we learned
+- How to build and deploy a Flask API that serves machine learning predictions
+- The inner workings of WebRTC, including peer connections and media streaming
+- How to train a custom ML model and connect it to a frontend
+- The importance of building apps that prioritize inclusion and accessibility
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 What's next for Connect
+- 🧠 Improving the accuracy and speed of the sign recognition model
+- 🌐 Supporting more sign languages (e.g., BSL, ISL)
+- 📲 Making a mobile version for broader accessibility
+- 🗨️ Adding text-to-speech for full bidirectional communication
+- 🔐 Ensuring user privacy and adding authentication
+
+We hope to keep building Connect into a tool that empowers and unites people through the power of technology!
